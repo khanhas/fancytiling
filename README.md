@@ -1,20 +1,22 @@
-# Overview
-Fork of [PowerToys/Fancyzones](https://github.com/microsoft/PowerToys/tree/master/src/modules/fancyzones)
+# FancyTiling
+Fork of [PowerToys/Fancyzones](https://github.com/microsoft/PowerToys/tree/master/src/modules/fancyzones)  
 
-Most of Fancyzones features have been removed. In place, these features below are added and customised
+Organising workplace and boost workflow with fast, optimised and dynamic windows tiling manager. For Windows users that want a taste of glorious Linux desktop experience.  
+Most of Fancyzones features have been removed. In place, these features below are added and customised. Feel free to request or pull request new features.
+
 ### Features:
 - Dynamic windows tiling: Single main window on the left and sub windows stacking on the right column. New window is auto added to stack.
 
 - New keyboard shorcuts to interact with stacks and layout:
-  - <kb>Win + Up/Down</kb>: Change window stacking position
-  - <kb>Win + Left</kb>: Explicitly bring window to main zone
-  - <kb>Win + Shift + Left/Right</kb>: Narrow/Broaden main zone width
+  - <kbd>Win</kbd> <kbd>Up/Down</kbd>: Change window stacking position
+  - <kbd>Win</kbd> <kbd>Left</kbd>: Explicitly bring window to main zone
+  - <kbd>Win</kbd> <kbd>Shift</kbd> <kbd>Left/Right</kbd>: Narrow/Broaden main zone width
 
 **Demo:** https://i.imgur.com/g2x6zx6.mp4
 
-- Shortcuts to interact with Virtual desktop:
-  - <kb>Win + 1 to 9</kb>: Switch Virtual desktop
-  - <kb>Win + Ctrl + 1 to 9</kb>: Move chosen window to virtual desktop
+- Shortcuts to interact with Virtual desktops:
+  - <kbd>Win</kbd> <kbd>1 to 9</kbd>: Switch Virtual desktop
+  - <kbd>Win</kbd> <kbd>Ctrl</kbd> <kbd>1 to 9</kbd>: Move chosen window to virtual desktop
 
 ### How to install:
 - Download [fancyzones.dll](https://github.com/khanhas/fancytiling/releases)
